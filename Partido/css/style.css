@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url(../imagens/R.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 720px;
+    padding-top: 15px;
+}
+
+nav{
+    background-color: black;
+    min-width: 900px;
+    max-width: 1100px;
+    height: 125px;
+    margin: 0px auto 0 auto;
+    border-radius: 5px;
+}
+
+nav #logo{
+    margin: 25px;
+    float: left;
+}
+
+nav #logo img{
+    height: 70px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    float: left;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav ul li a{
+    padding: 55px 20px 55px 0;
+    float: left;
+}
+
+nav #menu_principal {
+    float: right;
+    margin-right: 150px;
+}
+
+
+/* menuzinho de cima */
+
+span{
+    color: rgb(196, 196, 196);
+    font-size: 9 px;
+}
+
+#menu_principal li span{
+    font-family: Montserrat, sans-serif;
+    margin-right: 3px;
+    margin-top: 55px;
+    float: left;
+}
+
+#menu_principal li a{
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase; /* Deixa todo o texto maisculo*/
+    text-decoration: none;
+    transition: 1s;
+}
+
+#menu_principal li a:hover{
+  color:#ff0000;
+  transition: 1s;
+}
+
+
+/* Imagem de baixo e texto*/
+
+.coisas .imagem{
+    width:100%;
+    height: 720px;
+    padding-top: 15px;
+    padding: 40px;
+
+}
+.coisas .imagem img{
+    height: 360px;
+    border-radius: 20px;
+}
+
+.coisas .txt{
+    margin-left: 620px;
+    margin-top: -760px;
+    margin-right: 50px;
+}
+
+.nome {
+    margin-top: 400px;
+    margin-left: 900px;
+    
+}
+.titulo {
+    color: white;
+    margin-top: -1250px;
+    margin-left: 150px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 300;
+    
+}
